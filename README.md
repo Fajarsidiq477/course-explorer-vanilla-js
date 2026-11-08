@@ -4,6 +4,14 @@ A web application for discovering coding learning resources using an external AP
 
 This project focuses on asynchronous JavaScript, API integration, data normalization, state management, and interactive filtering.
 
+## Live Demo
+
+Try the Course Explorer application:
+
+**[View Live Demo](https://fajarsidiq477.github.io/course-explorer-vanilla-js/)**
+
+Explore coding resources, search by topics, filter by difficulty level, and refresh data directly from an external API.
+
 ## Features
 
 - **External API Integration** — Fetch coding resources from a public API.
