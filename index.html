@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Course Explorer</h1>
+    <p>Discover coding resources from around the web.</p>
+
+    <input
+        type="search"
+        id="searchInput"
+        placeholder="Search courses..."
+    >
+
+    <select id="levelFilter">
+        <option value="">All Levels</option>
+        <option value="Beginner">Beginner</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Advanced">Advanced</option>
+    </select>
+
+    <button id="refreshButton">Refresh Courses</button>
+
+    <p id="resultCounter"></p>
+    
+    <section id="courseList"></section>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
